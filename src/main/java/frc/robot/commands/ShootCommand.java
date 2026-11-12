@@ -42,7 +42,7 @@ public class ShootCommand extends Command {
     // HOOD CARPANI - Tek yerden tum hood pozisyonlarini degistir
     // 0.60 = %40 azaltma (mevcut kalibrasyon)
     // Ornek: 0.50 = %50 azaltma, 1.0 = orijinal degerler
-    private static final double kHoodScale = 0.70;
+    private static final double kHoodScale = 0.75;
     private static final double kShooterReadyToleranceRPM = 250.0;
     private static final int kShooterReadyCyclesRequired = 2;
     private static final double kMinFeedDelaySeconds = 0.05;
