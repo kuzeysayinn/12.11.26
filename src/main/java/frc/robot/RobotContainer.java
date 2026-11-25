@@ -448,13 +448,13 @@ public class RobotContainer {
         // ==================================================================
         // A -> Hopper Manuel Ileri (basili tut = calistir)
         // ==================================================================
-        joystick.a().whileTrue(
+        joystick.b().whileTrue(
                 Commands.startEnd(() -> hopper.run(), () -> hopper.stop(), hopper));
 
         // ==================================================================
         // B -> Intake Arm Manuel asagi indir (Yedek, basili tut = -0.25)
         // ==================================================================
-        joystick.b().whileTrue(
+        joystick.a().whileTrue(
                 Commands.startEnd(
                         () -> intakeArm.setSpeed(-IntakeArmSubsystem.ARM_SPEED),
                         () -> intakeArm.stop(),
